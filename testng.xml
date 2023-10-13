@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/SQA/SQA_assesment2- mobile/Mobile">
+    <classes>
+        <class name="testCase.HomePageTest">
+            <methods>
+                <include name="testAppAutomation"/>
+                <include name="LoginPages"/>
+                <include name="HomeMenuPage"/>
+                <include name="AddCardPart"/>
+                <include name="WishListRemove"/>
+                <include name="NewAddressAdd"/>
+                <include name="UpdateMyAccountInfo"/>
+                <include name="DeleteAddress"/>
+                <include name="CardProductDelete"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
